@@ -1,0 +1,146 @@
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	
+	background: #ffffff;
+}
+
+
+.navbar { /*customization*/
+	margin-bottom: 0;
+}
+
+
+.navbar_custom{
+	min-height: 80px;
+	padding:10px 0;
+	
+	
+}
+
+.navbar-brand>img{
+	
+	padding-right: 70px;
+	position: relative;
+	top: -4px; 
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	font-size: 16px;
+	text-transform: capitalize;
+}
+
+.icons li a{
+	padding-left: 10px;
+}
+
+
+.navbar_custom .container{
+	position: relative;
+}
+
+
+
+.globe {
+	font-size: 25px;
+	line-height: 50px;
+	position: absolute;
+	right: 20px;
+	color: white;
+	cursor: pointer;
+	display: none;
+
+
+
+}
+
+
+
+
+.bg_img{
+	
+	
+	min-height: 580px;
+	background-image: url(../img/pelican.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	
+
+	
+
+}
+
+.col-lg-4--custom {
+	font-size: 35px;
+	text-transform: uppercase;
+	
+
+}
+
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.icons{
+		display: none;
+		position: absolute;
+		right: 25px;
+		top: 60px;
+	}
+
+	.icons li{
+		float: none;
+	}
+
+	.icons li a{
+		padding: 5px;
+	}
+
+	.globe{
+		display: block;
+	}
+
+
+
+
+	/* Small Devices, Tablets */
+	@media only screen and (max-width : 767px) {
+		.globe{
+			display: none;
+		}
+		.icons{
+			display: block !important;
+		}
+
+		.slogan {
+			display: none;
+		}
+
+	}
+
+
+
+
+
+	/* Extra Small Devices, Phones */
+	@media only screen and (max-width : 480px) {
+
+	}
+
+
+	@media only screen and (min-width : 993px) {
+		.icons{
+			display: block !important;
+
+		}
+
+
+	}
+
